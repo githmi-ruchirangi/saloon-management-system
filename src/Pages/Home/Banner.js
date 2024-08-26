@@ -24,7 +24,7 @@ const Banner = () => {
   <div className="hero-content lg:flex-row-reverse">
     <img src="/src/images/allef-vinicius-IvQeAVeJULw-unsplash.jpg" alt='' className="max-w-sm rounded-lg shadow-2xl" />
     <div  style={SizeNav}>
-      <h1 className="text-4xl font-bold">Experience a <span className="text-bright-red">Luxurious</span> Transformation <br /> with Our <span className="text-bright-red">Expert</span> Stylists!</h1>
+      <h1 className="text-4xl font-bold">Experience a Luxurious Transformation <br /> with Our Expert Stylists!</h1>
      <p className='my-2.5 text-slate-300'>
       3891 Ranchview Dr. Richardson, <br />
       California 62639

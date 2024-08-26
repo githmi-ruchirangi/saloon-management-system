@@ -1,0 +1,166 @@
+/* General Styles */
+.beforefooter {
+    padding: 0.5rem 1%;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 1rem;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.beforefooter .box {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.beforefooter .box .logo {
+    transition: 0.4s;
+    width: fit-content;
+}
+
+.beforefooter .box .logo:hover {
+    transform: scale(1.1);
+}
+
+.beforefooter .box .bf-text {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.beforefooter .box .para {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.beforefooter .box a {
+    text-decoration: none;
+    color: white;
+}
+
+.beforefooter ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.beforefooter ul li {
+    margin-bottom: 5px; 
+}
+
+.beforefooter ul li a {
+    text-decoration: none; 
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+.beforefooter ul li a:hover {
+    color: rgb(255, 0, 0); 
+}
+
+.beforefooter .box .subscribe {
+    display: flex;
+    gap: 0.5rem; /* Added gap for better spacing on smaller screens */
+}
+
+.beforefooter .box .subscribe input {
+    width: 60%;
+    height: 55px;
+    padding: 0.5rem;
+}
+
+.beforefooter .box .subscribe .btn {
+    box-sizing: border-box;
+    background-color: rgb(255, 33, 33);
+    color: #fff;
+    padding: 0.8rem 2rem;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    transition: all 0.4s ease;
+    height: 55px;
+    border-radius: 0%;
+    border-color: #fff;
+    border-width: 1px;
+}
+
+.beforefooter .box .subscribe .btn:hover {
+    background-color: rgb(122, 222, 21);
+}
+
+.beforefooter .box .icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 6, 6);
+    transition: all 0.5s ease;
+    padding: 7px;
+}
+
+.beforefooter .box .icons a:hover {
+    background-color: #2c2c2c;
+}
+
+.beforefooter .box .address {
+    padding-right: 1rem;
+}
+
+.icons a {
+    font-size: 24px; 
+    color: white; 
+    padding: 10px;
+    border-radius: 50%; 
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.icons a:hover {
+    transform: scale(1.2); 
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 2rem; 
+    background-color: #121111b8; 
+    color: #fff; 
+    text-align: center; 
+}
+
+.fbox {
+    font-size: 0.875rem; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .beforefooter {
+        grid-template-columns: 1fr; 
+        gap: 1rem;
+    }
+
+    .beforefooter .box .subscribe {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .beforefooter .box .subscribe input,
+    .beforefooter .box .subscribe .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .beforefooter .box .bf-text {
+        font-size: 24px; 
+    }
+
+    .beforefooter .box .para {
+        font-size: 14px; 
+    }
+}

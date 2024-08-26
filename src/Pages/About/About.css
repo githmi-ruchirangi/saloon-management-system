@@ -7,6 +7,13 @@
     margin: auto;
     padding: 40px 0px 20px 0px;
 }
+.about-section-head{
+    color:#fff;
+}
+.about-subsection-head{
+    color:#fff;
+}
+
 
 .about-history{
     display: flex;
@@ -43,6 +50,7 @@
 .about-paragraph{
     display: flex;
     flex-wrap: wrap;
+    color: #fff;
 }
 
 .about-paragraph p{
@@ -56,6 +64,7 @@
     background-color: #1c1b1b;
     margin-top: 40px;
     padding-top: 10px;
+    color: #fff;
 }
 .shop-head-master h1{
     margin-left: 0.5%;
@@ -80,10 +89,12 @@
 .shop-masters .master h3{
     font-size: 22px;
     padding: 12px 0px;
+    color: #fff;
 }
 
 .master img, .master h3, .master p{
     margin-left: 5%;
+    color: #fff;
 }
 
 
@@ -92,6 +103,7 @@
 .shop-head-works{
     text-align: center;
     padding: 50px 0px 40px 0px;
+    color: #fff;
 }
 
 .our-works-images{
@@ -104,12 +116,14 @@
     height: 200px;
     object-fit: cover;
 }
-
+.what-clients-say-section{
+    color: #fff;
+}
 
 /* About Us Section */
 /*=== What We Provide Part ===*/
 
-.what-provide{
+/* .what-provide{
     background-color: #1c1b1b;
     align-items: center;
     padding: 30px 0px 10px 0px;
@@ -139,10 +153,10 @@
 .main-btn:hover {
     background-color: #3E8E41;
     cursor: pointer;
-}
+} */
 
 /*** Service Details ***/
-.what-provide{
+/* .what-provide{
     background-color: #1c1b1b;
     align-items: center;
     padding: 30px 0px 10px 0px;
@@ -194,7 +208,7 @@
 
 .service-price{
     color: #b83220 !important;
-}
+} */
 
 
 /*=== What Client Say ===*/
@@ -253,11 +267,28 @@
 
 
 /* Ready To Transform Section */
-.ready-to-transform{
+
+.ready-to-transform {
+    position: relative;
     margin: 50px auto;
     width: 100%;
     padding: 100px 0;
-    
+    background-image: url('../../../public/images/ready-to-transform.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    z-index: 1;
+}
+
+.ready-to-transform::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.57); /* Black color with 50% opacity */
+    z-index: -1; /* Ensures the overlay stays behind the content */
 }
 
 .ready-to-transform h1, .ready-to-transform p, .ready-to-transform a{
@@ -278,20 +309,20 @@
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
+    background-color: #ff3217;
     position: relative;
     cursor: pointer;
 }
 
 .second-btn:hover{
-    border: 1px solid #3E8E41;
-    background: #3E8E41;;
+    border: 1px solid #ffffff;
+    background: #1beb22;;
     transition: 1s;
 }
 
-footer {
+/* footer {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
-}
+} */

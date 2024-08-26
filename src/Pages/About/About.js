@@ -10,13 +10,13 @@ function About() {
 
 <div className="about-history">
 
-    <h1>PROFESSIONAL SALOON FOR MEN ONLY</h1>
+    <h1 className='about-section-head'>PROFESSIONAL SALOON FOR MEN ONLY</h1>
     <div className="item-2">
-        <h3>SINCE 2015</h3>
+        <h3 className='about-subsection-head'>SINCE 2015</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda harum sit nemo. Nobis, dicta amet!</p>
     </div>
     <div className="item-3">
-        <h3>1000+ CLIENS</h3>
+        <h3 className='about-subsection-head'>1000+ CLIENS</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, dicta!</p>
     </div>
     
@@ -80,7 +80,7 @@ function About() {
 
 <div className="clients-comment">
 
-    <h1>WHAT OUR CLIENTS SAY ABOUT US</h1>
+    <h1 className='what-clients-say-section'>WHAT OUR CLIENTS SAY ABOUT US</h1>
 
     <div className="clients-comment-paragraphs">
         

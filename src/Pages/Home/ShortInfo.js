@@ -26,7 +26,7 @@ const ShortInfo = () => {
         <h1 className='text-xl font-bold' > SINCE 2015</h1>
         <p className='my-3.5 text-slate-300 text-sm'>Founded in 2020, Urban Elegance offers top-notch grooming services exclusively for men.
 </p>
-<button className="btn btn-primary"> <Link to="/about">Learn More</Link></button>
+<button className="btn btn-primary text-white"> <Link to="/about">Learn More</Link></button>
       </div >
       <div className='my-3.5'>
         <h1 className='text-xl font-bold' >1000+ CLIENTS</h1>

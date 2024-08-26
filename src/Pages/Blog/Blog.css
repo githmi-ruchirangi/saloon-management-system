@@ -1,0 +1,55 @@
+                              /*****=== blog.html ===*****/
+/* Gallery Section */
+/*=== All Blogs Head Part ===*/
+
+.recent-post-head{
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 2%;
+}
+
+.all-blogs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-blog{
+    flex-basis: 33.33%;
+    padding: 1.3%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.single-blog:hover{
+    background-color: rgb(6, 1, 1) ;
+    transition: 0.8s;
+}
+
+.single-blog img{
+    align-items: auto;
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.single-blog h1{
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.single-blog-mini-head{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-blog-mini-head h6{
+    flex-basis: 50%;
+    color: #b83220;
+    font-weight: bold;
+}
+
+.single-blog p{
+    margin-top: 5%;
+}

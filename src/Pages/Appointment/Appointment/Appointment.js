@@ -1,23 +1,26 @@
 import React from 'react';
+import './Appointment.css';
+import RedLine from '../../Home/RedLine';
 
 import AppointmentBanner from '../AppointmentBanner/AppointmentBanner';
 import AvailableAppointment from '../AvailableAppointment/AvailableAppointment';
 
 const Appointment = () => {
-    const SizeNav={
-       
-        "color":"white",
-        "font-family": "'Roboto Condensed', sans-serif"
-    
+    const SizeNav = {
+        color: "white",
+        fontFamily: "'Roboto Condensed', sans-serif"
     };
-    
+
     const [selectedDate, setSelectedDate] = React.useState(new Date());
+    
     return (
-        <div style={SizeNav}>
-         
-<AppointmentBanner selectedDate={selectedDate} setSelectedDate={setSelectedDate}></AppointmentBanner>
-<AvailableAppointment selectedDate={selectedDate} setSelectedDate={setSelectedDate} ></AvailableAppointment>
-        </div>
+        <>
+            <RedLine />  
+            <div className='service-head' style={SizeNav}>  
+                <AppointmentBanner selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
+                <AvailableAppointment selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
+            </div>
+        </>
     );
 };
 
