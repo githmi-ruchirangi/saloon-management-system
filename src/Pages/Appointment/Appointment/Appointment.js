@@ -15,7 +15,17 @@ const Appointment = () => {
     
     return (
         <>
-            <RedLine />  
+           <div className='redline'><RedLine></RedLine></div> 
+            <div className="text-container2">
+            <h1 className='text-3xl font-bold text-white'>
+            What We Provide
+          </h1>
+          
+          <div className="image-wrapper">
+            <img src="./images/SERVICE.png" alt="Salon" className="service-image" />
+          </div>
+            </div>
+            
             <div className='service-head' style={SizeNav}>  
                 <AppointmentBanner selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
                 <AvailableAppointment selectedDate={selectedDate} setSelectedDate={setSelectedDate} />

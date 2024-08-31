@@ -1,3 +1,31 @@
 .service-head{
-    padding-top: 150px;
+    padding-top: 100px;
+}
+.text-container2 {
+    position: relative;
+    padding-left: 135px;
+    
+  }
+  
+  .service-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%; 
+    height: auto;
+    transform: translate(320px, -160px); 
+    z-index: 1; 
+    opacity: 0.2; 
+  }
+  .redline{
+    margin-bottom: 65px;
+  }
+  @media (max-width: 768px) {
+    .text-container2 {
+        padding-left: 20px;
+    }
+    .service-image {
+        width: 100%; 
+        transform: translate(0, -50px);
+    }
 }
